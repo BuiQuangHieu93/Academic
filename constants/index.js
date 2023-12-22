@@ -171,235 +171,55 @@ export const words = [
     value: 3,
   },
   {
-    text: "health psychology",
+    text: "Health psychology",
     value: 10,
   },
   {
-    text: "surgery",
+    text: "Surgery",
     value: 2,
   },
   {
-    text: "stereochemistry",
+    text: "Stereochemistry",
     value: 8,
   },
   {
-    text: "educational psychology",
+    text: "Educational psychology",
     value: 5,
   },
   {
-    text: "botany",
+    text: "Botany",
     value: 4,
   },
   {
-    text: "data mining",
+    text: "Data mining",
     value: 5,
   },
   {
-    text: "supramolecular chemistry",
+    text: "Supramolecular chemistry",
     value: 5,
   },
   {
-    text: "relativity",
+    text: "Relativity",
     value: 5,
   },
   {
-    text: "particle physics",
+    text: "Particle physics",
     value: 7,
   },
   {
-    text: "financial economics",
+    text: "Financial economics",
     value: 5,
   },
   {
-    text: "mechanics",
+    text: "Mechanics",
     value: 7,
   },
   {
-    text: "health geography",
+    text: "Health geography",
     value: 8,
   },
   {
-    text: "sociology of race and ethnic relations",
-    value: 9,
-  },
-  {
-    text: "Geometry",
-    value: 5,
-  },
-  {
-    text: "Oceanography",
-    value: 10,
-  },
-  {
-    text: "health psychology",
-    value: 5,
-  },
-  {
-    text: "surgery",
-    value: 5,
-  },
-  {
-    text: "stereochemistry",
-    value: 5,
-  },
-  {
-    text: "educational psychology",
-    value: 8,
-  },
-  {
-    text: "botany",
-    value: 3,
-  },
-  {
-    text: "data mining",
-    value: 10,
-  },
-  {
-    text: "supramolecular chemistry",
-    value: 5,
-  },
-  {
-    text: "relativity",
-    value: 4,
-  },
-  {
-    text: "particle physics",
-    value: 8,
-  },
-  {
-    text: "financial economics",
-    value: 6,
-  },
-  {
-    text: "mechanics",
-    value: 5,
-  },
-  {
-    text: "health geography",
-    value: 7,
-  },
-  {
-    text: "sociology of race and ethnic relations",
-    value: 9,
-  },
-  {
-    text: "Geometry",
-    value: 1,
-  },
-  {
-    text: "Oceanography",
-    value: 3,
-  },
-  {
-    text: "health psychology",
-    value: 10,
-  },
-  {
-    text: "surgery",
-    value: 2,
-  },
-  {
-    text: "stereochemistry",
-    value: 8,
-  },
-  {
-    text: "educational psychology",
-    value: 5,
-  },
-  {
-    text: "botany",
-    value: 4,
-  },
-  {
-    text: "data mining",
-    value: 5,
-  },
-  {
-    text: "supramolecular chemistry",
-    value: 5,
-  },
-  {
-    text: "relativity",
-    value: 5,
-  },
-  {
-    text: "particle physics",
-    value: 7,
-  },
-  {
-    text: "financial economics",
-    value: 5,
-  },
-  {
-    text: "mechanics",
-    value: 7,
-  },
-  {
-    text: "health geography",
-    value: 8,
-  },
-  {
-    text: "sociology of race and ethnic relations",
-    value: 9,
-  },
-  {
-    text: "Geometry",
-    value: 5,
-  },
-  {
-    text: "Oceanography",
-    value: 10,
-  },
-  {
-    text: "health psychology",
-    value: 5,
-  },
-  {
-    text: "surgery",
-    value: 5,
-  },
-  {
-    text: "stereochemistry",
-    value: 5,
-  },
-  {
-    text: "educational psychology",
-    value: 8,
-  },
-  {
-    text: "botany",
-    value: 3,
-  },
-  {
-    text: "data mining",
-    value: 10,
-  },
-  {
-    text: "supramolecular chemistry",
-    value: 5,
-  },
-  {
-    text: "relativity",
-    value: 4,
-  },
-  {
-    text: "particle physics",
-    value: 8,
-  },
-  {
-    text: "financial economics",
-    value: 6,
-  },
-  {
-    text: "mechanics",
-    value: 5,
-  },
-  {
-    text: "health geography",
-    value: 7,
-  },
-  {
-    text: "sociology of race and ethnic relations",
+    text: "Sociology of race and ethnic relations",
     value: 9,
   },
 ];

@@ -2,7 +2,7 @@
 
 import Navbar from "./Navbar";
 import SearchField from "./SearchField";
-import { faculties, institutions } from "@/constants";
+import { faculties, institutions, venues, words } from "@/constants";
 
 const Header = () => {
   const data = [
@@ -18,6 +18,20 @@ const Header = () => {
       type: "institution" as const,
       data: institutions?.map((institution) => ({
         name: institution.name,
+      })),
+    },
+    {
+      label: "Venues",
+      type: "venue" as const,
+      data: venues?.map((venue) => ({
+        name: venue.name,
+      })),
+    },
+    {
+      label: "Concepts",
+      type: "concept" as const,
+      data: words?.map((word) => ({
+        name: word.text,
       })),
     },
   ];

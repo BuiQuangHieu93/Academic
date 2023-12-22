@@ -16,7 +16,7 @@ import {
 interface SearchProps {
   data: {
     label: string;
-    type: "faculty" | "institution" | "venus" | "concept";
+    type: "faculty" | "institution" | "venue" | "concept";
     data:
       | {
           name: string;
@@ -47,7 +47,7 @@ const SearchField = ({ data }: SearchProps) => {
     type,
   }: {
     name: string;
-    type: "faculty" | "institution" | "venus" | "concept";
+    type: "faculty" | "institution" | "venue" | "concept";
   }) => {
     setOpen(false);
 
@@ -74,7 +74,7 @@ const SearchField = ({ data }: SearchProps) => {
         </kbd>
       </button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Search all faculties, institutions, venus and concept" />
+        <CommandInput placeholder="Search all faculties, institutions, venues and concept" />
         <CommandList>
           <CommandEmpty>No Results found</CommandEmpty>
           {data.map(({ label, type, data }) => {
