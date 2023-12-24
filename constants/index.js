@@ -162,64 +162,19 @@ export const FooterSection = [
 ];
 
 export const words = [
-  {
-    text: "Geometry",
-    value: 1,
-  },
-  {
-    text: "Oceanography",
-    value: 3,
-  },
-  {
-    text: "Health psychology",
-    value: 10,
-  },
-  {
-    text: "Surgery",
-    value: 2,
-  },
-  {
-    text: "Stereochemistry",
-    value: 8,
-  },
-  {
-    text: "Educational psychology",
-    value: 5,
-  },
-  {
-    text: "Botany",
-    value: 4,
-  },
-  {
-    text: "Data mining",
-    value: 5,
-  },
-  {
-    text: "Supramolecular chemistry",
-    value: 5,
-  },
-  {
-    text: "Relativity",
-    value: 5,
-  },
-  {
-    text: "Particle physics",
-    value: 7,
-  },
-  {
-    text: "Financial economics",
-    value: 5,
-  },
-  {
-    text: "Mechanics",
-    value: 7,
-  },
-  {
-    text: "Health geography",
-    value: 8,
-  },
-  {
-    text: "Sociology of race and ethnic relations",
-    value: 9,
-  },
+  "Geometry",
+  "Oceanography",
+  "Health psychology",
+  "Surgery",
+  "Stereochemistry",
+  "Educational psychology",
+  "Botany",
+  "Data mining",
+  "Supramolecular chemistry",
+  "Relativity",
+  "Particle physics",
+  "Financial economics",
+  "Mechanics",
+  "Health geography",
+  "Sociology of race and ethnic relations",
 ];

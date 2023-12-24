@@ -77,15 +77,15 @@ const SearchField = ({ data }: SearchProps) => {
         <CommandInput placeholder="Search all faculties, institutions, venues and concept" />
         <CommandList>
           <CommandEmpty>No Results found</CommandEmpty>
-          {data.map(({ label, type, data }) => {
+          {data.map(({ label, type, data }, index) => {
             if (!data?.length) return null;
 
             return (
-              <CommandGroup key={label} heading={label}>
-                {data?.map(({ name }) => {
+              <CommandGroup key={index} heading={label}>
+                {data?.map(({ name }, index) => {
                   return (
                     <CommandItem
-                      key={name}
+                      key={index}
                       onSelect={() => onClick({ name, type })}
                     >
                       <span>{name}</span>

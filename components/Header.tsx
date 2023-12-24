@@ -31,7 +31,7 @@ const Header = () => {
       label: "Concepts",
       type: "concept" as const,
       data: words?.map((word) => ({
-        name: word.text,
+        name: word,
       })),
     },
   ];

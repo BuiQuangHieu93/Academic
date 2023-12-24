@@ -1,12 +1,12 @@
 "use client";
 import { CardFaculty } from "@/components/CardFaculty";
+import CircularWordCloud from "@/components/CircularWordCloud";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button } from "@/components/ui/button";
 import { faculties, institutions, venues, words } from "@/constants/index";
 import { useState } from "react";
-import ReactWordcloud from "react-wordcloud";
 
 export default function Home() {
   const [displayedCount, setDisplayedCount] = useState(3);
@@ -16,6 +16,7 @@ export default function Home() {
   const [displayedVenueCount, setDisplayedVenueCount] = useState(3);
   const handleSeeMoreVenue = () =>
     setDisplayedVenueCount(displayedVenueCount + 3);
+
   return (
     <>
       <Header />
@@ -103,12 +104,13 @@ export default function Home() {
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper>
-        <div className="text-3xl font-semibold mb-6 text-center pt-16 pb-8">
+        <div className="text-3xl font-semibold text-center pt-16 pb-8">
           Concepts
         </div>
-        <div className="flex justify-center p-12">
+        <div className="flex justify-center">
           <div className="w-[80%] rounded-full">
-            <ReactWordcloud words={words} />
+            {/* <ReactWordcloud words={words} /> */}
+            {words && <CircularWordCloud words={words} />}
           </div>
         </div>
       </MaxWidthWrapper>
