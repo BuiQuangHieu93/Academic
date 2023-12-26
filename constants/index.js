@@ -4,17 +4,21 @@ export const faculties = [
     description:
       "Northrop Grumman Foundation Fred O'Green Chair in Engineering. and University Professor of Astronautics",
     institution: "University of Southern California",
-    image: "",
+    image: "/asset/avatar.png",
   },
   {
     name: "Cindy L. Cain",
     description: "Associate Professor",
     institution: "University of Alabama at Birmingham",
+    image:
+      "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=F69VO20AAAAJ",
   },
   {
     name: "Deena Weinstein",
     description: "Professor, Retired",
     institution: "DePaul University",
+    image:
+      "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=3b9snJAAAAAJ",
   },
   {
     name: "Jeremy Freese",
@@ -55,16 +59,21 @@ export const institutions = [
     name: "Montana Technological University",
     description:
       "Montana Technological University, popularly known as Montana Tech, is a public university in Butte, Montana. Founded in ...",
+    image: "https://www.mtech.edu/montana-true/files/shield-web-s.jpg",
   },
   {
     name: "Washington University in St. Louis",
     description:
       "Washington University in St. Louis (WashU or WUSTL) is a private research university with its main campus in St. Louis C...",
+    image:
+      "https://capstonevietnam-fileserver.nvcms.net/CRM/IMAGES/2019/11/intern2.hn_2019590603591112C38DFF-3965-41CC-A20C-CF290B6971A0.png",
   },
   {
     name: "University of Central Florida",
     description:
       "The University of Central Florida (UCF) is a public research university with its main campus in unincorporated Orange Co...",
+    image:
+      "https://1000logos.net/wp-content/uploads/2017/11/University-of-Central-Florida-Logo-1-500x315.jpg",
   },
   {
     name: "University of Chicago",

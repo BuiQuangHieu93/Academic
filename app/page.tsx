@@ -35,6 +35,7 @@ export default function Home() {
                       name={faculty.name}
                       description={faculty.description}
                       institution={faculty.institution}
+                      type="faculty"
                     />
                   </div>
                 )
@@ -60,8 +61,10 @@ export default function Home() {
                 index < displayedInsCount && (
                   <div key={index} className="mb-4">
                     <CardFaculty
+                      image={institution.image}
                       name={institution.name}
                       description={institution.description}
+                      type="institution"
                     />
                   </div>
                 )
@@ -78,7 +81,7 @@ export default function Home() {
       </MaxWidthWrapper>
       <MaxWidthWrapper className="mt-4">
         <div className="text-3xl font-semibold mb-6 text-center pt-16 pb-8">
-          Venus
+          Venues
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row flex-wrap justify-evenly">
@@ -89,6 +92,7 @@ export default function Home() {
                     <CardFaculty
                       name={venue.name}
                       description={venue.description}
+                      type="venue"
                     />
                   </div>
                 )

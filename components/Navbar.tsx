@@ -10,7 +10,7 @@ const navIcons = [
     name: "Institution",
     link: "/institution",
   },
-  { src: "/asset/paper.svg", alt: "venue", name: "Venue", link: "/venus" },
+  { src: "/asset/paper.svg", alt: "venue", name: "Venue", link: "/venues" },
   {
     src: "/asset/concept.svg",
     alt: "concept",
