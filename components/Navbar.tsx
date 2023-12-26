@@ -30,7 +30,7 @@ const Navbar = () => {
             <p className="text-white font-semibold">ONLINE</p>
           </div>
         </Link>
-        <div className="w-[50%] pr-4">
+        <div className="lg:w-[50%] md:w-[74%] pr-4">
           <div className="flex items-center gap-5 justify-evenly w-full">
             {navIcons.map((icon, index) => (
               <Link
