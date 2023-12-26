@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Link from "next/link";
 
 interface CardProps {
   image?: string;
@@ -61,9 +62,12 @@ export function CardFaculty({
           {description}
         </CardDescription>
         {institution && (
-          <p className="text-base underline text-gray-600 min-h-[56px]">
+          <Link
+            className="text-base underline text-gray-600 min-h-[56px]"
+            href="/"
+          >
             {institution}
-          </p>
+          </Link>
         )}
       </CardContent>
     </Card>
