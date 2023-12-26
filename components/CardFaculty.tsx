@@ -41,7 +41,7 @@ export function CardFaculty({
     }
   }
   return (
-    <Card className="w-[350px] min-h-[360px] text-center bg-white dark:bg-black border border-gray-300 rounded-md shadow-md p-4 hover:shadow-2xl transition duration-300 ease-in-out">
+    <Card className="w-[320px] min-h-[360px] text-center bg-white dark:bg-black border border-gray-300 rounded-md shadow-md p-4 hover:shadow-2xl transition duration-300 ease-in-out">
       <CardContent className="flex flex-col items-center">
         {/* <Avatar className="rounded-full">
           <AvatarImage src={imageUrl} />
